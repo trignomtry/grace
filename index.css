@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@100..700&display=swap');
+
+body{
+    background-color: rgb(65, 147, 211);
+}
+
+.cards{
+
+}
+p{
+    color: white;
+    margin: 50px !important;
+}
+h1{
+    color: white;
+    font-size: 50px !important;
+    font-family: "Kalnia", serif;
+
+}
+li {
+    color: white;
+}
+div{
+    margin: 10px !important;
+}
+.call-now{
+    margin: 0 !important;
+    font-weight: bold;
+    color: white;
+}
+
+header{
+    height: 100%;
+    padding: 50px;
+}
+iframe{
+    height: auto;
+}
