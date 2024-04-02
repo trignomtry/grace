@@ -4,9 +4,7 @@ body{
     background-color: rgb(65, 147, 211);
 }
 
-.cards{
 
-}
 p{
     color: white;
     margin: 50px !important;
@@ -33,6 +31,52 @@ header{
     height: 100%;
     padding: 50px;
 }
-iframe{
-    height: auto;
+iframe.headerr{
+    height: max-content;
+    overflow:visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
+.halo-cert{
+    color: blue;
+}
+.slogan{
+    font-size: x-large;
+}
+
+
+.safearea {
+    display: block;
+    clear: both;
+    height: 50vh; /* 50% of the viewport height */
+}
+
+iframe.slide{
+    width: 50vb;
+    height: 50vb;
+    overflow-x: hidden;
+    
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px !important;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    /* Make card content a flex container with elements stacked vertically */
+    justify-content: flex-end;  /* Align content at the bottom */
+  }
+  
+  @media (max-width: 768px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
