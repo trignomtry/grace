@@ -21,6 +21,7 @@ li {
 }
 div{
     margin: 10px !important;
+    margin-top: 0px !important;
 }
 .call-now{
     margin: 0 !important;
@@ -45,6 +46,8 @@ iframe.headerr{
 }
 .slogan{
     font-size: x-large;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
 }
 
 
