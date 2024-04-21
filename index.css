@@ -3,14 +3,16 @@
 body{
     background-color: rgb(65, 147, 211);
     overflow-x: hidden;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
 }
 
 
 p{
     color: white;
     margin: 30px;
-    margin-left: 200px !important;
-    margin-right: 200px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
 }
 h1{
     color: white;
