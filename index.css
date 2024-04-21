@@ -8,9 +8,9 @@ body{
 
 p{
     color: white;
-    margin: 30px !important;
-    margin-left: 50px !important;
-    margin-right: 50px !important;
+    margin: 30px;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
 }
 h1{
     color: white;
