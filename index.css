@@ -51,7 +51,7 @@ iframe.headerr{
 .safearea {
     display: block;
     clear: both;
-    height: 50vh; /* 50% of the viewport height */
+    height: 30vh; 
 }
 
 iframe.slide{
